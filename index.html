@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Xenoblade Chronicles 2 Completion Checklist</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/yeti/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" integrity="sha256-eU4xmpfQx1HSi5q1q2rHNcMEzTNJov7r2Wr/6zF3ANc=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/wenzhixin/bootstrap-table/develop/src/extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js" integrity="sha256-pS96pU17yq+gVu4KBQJi38VpSuKN7otMrDQprzf/DWY=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js" integrity="sha256-eXHLyyVI+v6X1wbfg9NB05IWqOqY4E9185nHZgeDIhg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/extensions/filter-control/bootstrap-table-filter-control.min.js" integrity="sha256-qyXaapsr+PVNpdEqfU2yiqRLYUfClBp88YvLJ6q26/8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="title-bar" class="d-flex flex-row">
+        <div class="p-2">
+            <h1>Xenoblade Chronicles 2 Completion Checklist</h1>
+        </div>
+        <div class="p-2 align-self-center">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resetModal">Reset All Progress</button>
+        </div>
+    </div>
+    <ul class="nav nav-tabs" id="main_menu" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="intro-tab" data-toggle="tab" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Intro</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="quests-tab" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Quests</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-toggle="tab" href="#quests">Side Quests</a>
+                <a class="dropdown-item" data-toggle="tab" href="#quests-dlc">DLC Quests</a>
+                <a class="dropdown-item" data-toggle="tab" href="#quests-blade">Blade Quests</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="blades-tab" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Blades</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-toggle="tab" href="#blades">Standard Blades</a>
+                <a class="dropdown-item" data-toggle="tab" href="#blades-ng">New Game+ Blades</a>
+                <a class="dropdown-item" data-toggle="tab" href="#blades-calculator">Blade Calculator</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="shopdeeds-tab" data-toggle="tab" href="#shopdeeds" role="tab" aria-controls="shopdeeds" aria-selected="false">Shop Deeds</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="uniquemonsters-tab" data-toggle="tab" href="#uniquemonsters" role="tab" aria-controls="uniquemonsters" aria-selected="false">Unique Monsters</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="mercmissions-tab" data-toggle="tab" href="#mercmissions" role="tab" aria-controls="mercmissions" aria-selected="false">Merc Missions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="secretareas-tab" data-toggle="tab" href="#secretareas" role="tab" aria-controls="secretareas" aria-selected="false">Secret Areas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="expman-tab" data-toggle="tab" href="#expman" role="tab" aria-controls="expman" aria-selected="false">Pouch Expansions/Poppi Manuals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="bspon-tab" data-toggle="tab" href="#bspon" role="tab" aria-controls="bspon" aria-selected="false">Brothersisterpons</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="foorara-tab" data-toggle="tab" href="#foorara" role="tab" aria-controls="foorara" aria-selected="false">Foorara</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="doubloons-tab" data-toggle="tab" href="#doubloons" role="tab" aria-controls="doubloons" aria-selected="false">Nopon Doubloons</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="trust-tab" data-toggle="tab" href="#trust" role="tab" aria-controls="trust" aria-selected="false">Trust Items</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="devlvl-tab" data-toggle="tab" href="#devlvl" role="tab" aria-controls="devlvl" aria-selected="false">Development Levels</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="maxaff-tab" data-toggle="tab" href="#maxaff" role="tab" aria-controls="devlvl" aria-selected="false">Max Affinity Charts</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="splus-tab" data-toggle="tab" href="#splus" role="tab" aria-controls="devlvl" aria-selected="false">S+ Trust</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="tab_content">
+        <div class="tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
+            <h3>SPOILER ALERT</h3>
+            <p>This page contains massive massive spoilers (up to Chapter 9). Proceed at your own discretion.</p>
+        </div>
+        <div class="tab-pane fade" id="quests" role="tabpanel" aria-labelledby="quests-tab">
+            <h3 id="quests-header">Side Quests (<span id="quests-completed"></span>/<span id="quests-total"></span>)</h3>
+            <table id="quests-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="quests-dlc" role="tabpanel" aria-labelledby="quests-tab">
+            <h3 id="quests-dlc-header">DLC Quests (<span id="quests-dlc-completed"></span>/<span id="quests-dlc-total"></span>)</h3>
+            <table id="quests-dlc-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="quests-blade" role="tabpanel" aria-labelledby="quests-tab">
+            <h3 id="quests-blade-header">Blade Quests (<span id="quests-blade-completed"></span>/<span id="quests-blade-total"></span>)</h3>
+            <table id="quests-blade-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="blades" role="tabpanel" aria-labelledby="blades-tab">
+            <h3 id="blades-header">Standard Blades (<span id="blades-completed"></span>/<span id="blades-total"></span>)</h3>
+            <table id="blades-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="blades-ng" role="tabpanel" aria-labelledby="blades-tab">
+            <h3 id="blades-ng-header">New Game+ Blades (<span id="blades-ng-completed"></span>/<span id="blades-ng-total"></span>)</h3>
+            <table id="blades-ng-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="blades-calculator" role="tabpanel" aria-labelledby="blades-tab">
+            <h3 id="blades-calculator-header">Blade Calculator</h3>
+            <p>For informational purposes. Not part of completion.</p>
+            <div id="calculator-slot"></div>
+            <div id="calculator-product"></div>
+        </div>
+        <div class="tab-pane fade" id="shopdeeds" role="tabpanel" aria-labelledby="shopdeeds-tab">
+            <h3 id="shopdeeds-header">Shop Deeds (<span id="shopdeeds-completed"></span>/<span id="shopdeeds-total"></span>)</h3>
+            <table id="shopdeeds-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="uniquemonsters" role="tabpanel" aria-labelledby="uniquemonsters-tab">
+            <h3 id="uniquemonsters-header">Unique Monsters (<span id="uniquemonsters-completed"></span>/<span id="uniquemonsters-total"></span>)</h3>
+            <table id="uniquemonsters-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="mercmissions" role="tabpanel" aria-labelledby="mercmissions-tab">
+            <h3 id="mercmissions-header">Merc Missions (<span id="mercmissions-completed"></span>/<span id="mercmissions-total"></span>)</h3>
+            <table id="mercmissions-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="secretareas" role="tabpanel" aria-labelledby="secretareas-tab">
+            <h3 id="secretareas-header">Secret Areas (<span id="secretareas-completed"></span>/<span id="secretareas-total"></span>)</h3>
+            <table id="secretareas-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="expman" role="tabpanel" aria-labelledby="expman-tab">
+            <h3 id="expman-header">Pouch Expansions/Poppi Manuals (<span id="expman-completed"></span>/<span id="expman-total"></span>)</h3>
+            <table id="expman-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="bspon" role="tabpanel" aria-labelledby="bspon-tab">
+            <h3 id="bspon-header">Brothersisterpons (<span id="bspon-completed"></span>/<span id="bspon-total"></span>)</h3>
+            <table id="bspon-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="foorara" role="tabpanel" aria-labelledby="foorara-tab">
+            <h3 id="foorara-header">Foorara (<span id="foorara-completed"></span>/<span id="foorara-total"></span>)</h3>
+            <p>Must be found in this order</p>
+            <table id="foorara-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="doubloons" role="tabpanel" aria-labelledby="doubloons-tab">
+            <h3 id="doubloons-header">Nopon Doubloons (<span id="doubloons-completed"></span>/<span id="doubloons-total"></span>)</h3>
+            <table id="doubloons-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="trust" role="tabpanel" aria-labelledby="trust-tab">
+            <h3>Trust Items</h3>
+            <p>For informational purposes. Not part of completion.</p>
+            <table id="trust-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="devlvl" role="tabpanel" aria-labelledby="devlvl-tab">
+            <h3>Development Levels (<span id="devlvl-completed"></span>/<span id="devlvl-total"></span>)</h3>
+            <table id="devlvl-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="maxaff" role="tabpanel" aria-labelledby="maxaff-tab">
+            <h3>Max Affinity Charts (<span id="maxaff-completed"></span>/<span id="maxaff-total"></span>)</h3>
+            <table id="maxaff-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="splus" role="tabpanel" aria-labelledby="splus-tab">
+            <h3>S+ Trust (<span id="splus-completed"></span>/<span id="splus-total"></span>)</h3>
+            <table id="splus-table" class="table table-hover"></table>
+        </div>
+    </div>
+    <div class="modal fade" id="resetModal" tabindex="-1" role="dialog" aria-labelledby="resetModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resetModalTitle">Reset All Progress</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">Are you sure you want to reset all of your progress?</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No, get me out of here!</button>
+                    <button id="reset-yes" type="button" class="btn btn-primary" data-dismiss="modal">Yes, reset everything.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
