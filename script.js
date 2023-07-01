@@ -35,7 +35,7 @@ function toggleElement(e, counterElement) {
     saveStore();
 }
 
-var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "shopdeeds", "uniquemonsters", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons", "devlvl", "maxaff", "splus"]; //Heart to Hearts
+var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "shopdeeds", "uniquemonsters", "hearttohearts", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons", "devlvl", "maxaff", "splus"];
 var defs = {
     "quests-fil": true,
     "quests-col": [{
@@ -315,6 +315,43 @@ var defs = {
         {
             field: 'spawntime',
             title: 'Spawntime',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        }
+    ],
+    "hearttohearts-fil": true,
+    "hearttohearts-col": [{
+            field: 'name',
+            title: 'Name',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'area',
+            title: 'Area',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'location',
+            title: 'Location',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'party',
+            title: 'Party',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'notes',
+            title: 'Notes',
             sortable: true,
             filterControl: 'input',
             filterStrictSearch: false

@@ -669,7 +669,7 @@
       "uid": "foorara_9"
     }
   ],
-  "hearttoheart": [
+  "hearttohearts": [
     {
       "area": "Argentum Trade Guild",
       "location": "Lemour Inn",
@@ -5500,6 +5500,478 @@
       "spawntime": "Anytime",
       "species": "Titan",
       "uid": "um_tyrannotitankurodil"
+    }
+  ],
+  "splus": [
+    {
+      "name": "Pyra",
+      "uid": "sp_pyra"
+    },
+    {
+      "name": "Mythra",
+      "uid": "sp_mythra"
+    },
+    {
+      "name": "Roc",
+      "uid": "sp_roc"
+    },
+    {
+      "name": "Nia",
+      "uid": "sp_nia"
+    },
+    {
+      "name": "Dromarch",
+      "uid": "sp_dromarch"
+    },
+    {
+      "name": "Poppi α",
+      "uid": "sp_poppia"
+    },
+    {
+      "name": "Poppi QT",
+      "uid": "sp_poppiqt"
+    },
+    {
+      "name": "Poppi QTπ",
+      "uid": "sp_poppiqtp"
+    },
+    {
+      "name": "Pandoria",
+      "uid": "sp_pandoria"
+    },
+    {
+      "name": "Aegaeon",
+      "uid": "sp_aegaeon"
+    },
+    {
+      "name": "Brighid",
+      "uid": "sp_brighid"
+    },
+    {
+      "name": "Finch",
+      "uid": "sp_finch"
+    },
+    {
+      "name": "Perceval",
+      "uid": "sp_perceval"
+    },
+    {
+      "name": "Floren",
+      "uid": "sp_floren"
+    },
+    {
+      "name": "Dagas",
+      "uid": "sp_dagas"
+    },
+    {
+      "name": "Azami",
+      "uid": "sp_azami"
+    },
+    {
+      "name": "Nim",
+      "uid": "sp_nim"
+    },
+    {
+      "name": "Electra",
+      "uid": "sp_electra"
+    },
+    {
+      "name": "Perun",
+      "uid": "sp_perun"
+    },
+    {
+      "name": "Adenine",
+      "uid": "sp_adenine"
+    },
+    {
+      "name": "Newt",
+      "uid": "sp_newt"
+    },
+    {
+      "name": "Gorg",
+      "uid": "sp_gorg"
+    },
+    {
+      "name": "Kora",
+      "uid": "sp_kora"
+    },
+    {
+      "name": "Vess",
+      "uid": "sp_vess"
+    },
+    {
+      "name": "Boreas",
+      "uid": "sp_boreas"
+    },
+    {
+      "name": "Vale",
+      "uid": "sp_vale"
+    },
+    {
+      "name": "Wulfric",
+      "uid": "sp_wulfric"
+    },
+    {
+      "name": "Herald",
+      "uid": "sp_herald"
+    },
+    {
+      "name": "Godfrey",
+      "uid": "sp_godfrey"
+    },
+    {
+      "name": "Zenobia",
+      "uid": "sp_zenobia"
+    },
+    {
+      "name": "Praxis",
+      "uid": "sp_praxis"
+    },
+    {
+      "name": "Theory",
+      "uid": "sp_theory"
+    },
+    {
+      "name": "Sheba",
+      "uid": "sp_sheba"
+    },
+    {
+      "name": "Agate",
+      "uid": "sp_agate"
+    },
+    {
+      "name": "Kasandra",
+      "uid": "sp_kasandra"
+    },
+    {
+      "name": "Dahlia",
+      "uid": "sp_dahlia"
+    },
+    {
+      "name": "Ursala",
+      "uid": "sp_ursala"
+    },
+    {
+      "name": "KOS-MOS",
+      "uid": "sp_kosmos"
+    },
+    {
+      "name": "T-elos",
+      "uid": "sp_telos"
+    },
+    {
+      "name": "Sever",
+      "uid": "sp_sever"
+    },
+    {
+      "name": "Obrona",
+      "uid": "sp_obrona"
+    },
+    {
+      "name": "Perdido",
+      "uid": "sp_perdido"
+    },
+    {
+      "name": "Cressidus",
+      "uid": "sp_cressidus"
+    },
+    {
+      "name": "Poppibuster",
+      "uid": "sp_poppibuster"
+    },
+    {
+      "name": "Shulk",
+      "uid": "sp_shulk"
+    },
+    {
+      "name": "Fiora",
+      "uid": "sp_fiora"
+    },
+    {
+      "name": "Crossette",
+      "uid": "sp_crossette"
+    },
+    {
+      "name": "Corvin",
+      "uid": "sp_corvin"
+    },
+    {
+      "name": "Elma",
+      "uid": "sp_elma"
+    },
+    {
+      "name": "Akhos",
+      "uid": "sp_akhos"
+    },
+    {
+      "name": "Patroka",
+      "uid": "sp_patroka"
+    },
+    {
+      "name": "Mikhail",
+      "uid": "sp_mikhail"
+    }
+  ],
+  "maxaff": [
+    {
+      "name": "Pyra",
+      "notes": "",
+      "uid": "ma_pyra"
+    },
+    {
+      "name": "Mythra",
+      "notes": "",
+      "uid": "ma_mythra"
+    },
+    {
+      "name": "Roc",
+      "notes": "",
+      "uid": "ma_roc"
+    },
+    {
+      "name": "Nia",
+      "notes": "",
+      "uid": "ma_nia"
+    },
+    {
+      "name": "Dromarch",
+      "notes": "",
+      "uid": "ma_dromarch"
+    },
+    {
+      "name": "Poppi α",
+      "notes": "",
+      "uid": "ma_poppia"
+    },
+    {
+      "name": "Poppi QT",
+      "notes": "",
+      "uid": "ma_poppiqt"
+    },
+    {
+      "name": "Poppi QTπ",
+      "notes": "",
+      "uid": "ma_poppiqtp"
+    },
+    {
+      "name": "Pandoria",
+      "notes": "",
+      "uid": "ma_pandoria"
+    },
+    {
+      "name": "Aegaeon",
+      "notes": "",
+      "uid": "ma_aegaeon"
+    },
+    {
+      "name": "Brighid",
+      "notes": "",
+      "uid": "ma_brighid"
+    },
+    {
+      "name": "Finch",
+      "notes": "",
+      "uid": "ma_finch"
+    },
+    {
+      "name": "Perceval",
+      "notes": "",
+      "uid": "ma_perceval"
+    },
+    {
+      "name": "Floren",
+      "notes": "",
+      "uid": "ma_floren"
+    },
+    {
+      "name": "Dagas",
+      "notes": "His affinity resets after his quest and he gets a new affinity chart.",
+      "uid": "ma_dagas"
+    },
+    {
+      "name": "Azami",
+      "notes": "",
+      "uid": "ma_azami"
+    },
+    {
+      "name": "Nim",
+      "notes": "",
+      "uid": "ma_nim"
+    },
+    {
+      "name": "Electra",
+      "notes": "",
+      "uid": "ma_electra"
+    },
+    {
+      "name": "Perun",
+      "notes": "",
+      "uid": "ma_perun"
+    },
+    {
+      "name": "Adenine",
+      "notes": "",
+      "uid": "ma_adenine"
+    },
+    {
+      "name": "Newt",
+      "notes": "",
+      "uid": "ma_newt"
+    },
+    {
+      "name": "Gorg",
+      "notes": "",
+      "uid": "ma_gorg"
+    },
+    {
+      "name": "Kora",
+      "notes": "",
+      "uid": "ma_kora"
+    },
+    {
+      "name": "Vess",
+      "notes": "",
+      "uid": "ma_vess"
+    },
+    {
+      "name": "Boreas",
+      "notes": "",
+      "uid": "ma_boreas"
+    },
+    {
+      "name": "Vale",
+      "notes": "",
+      "uid": "ma_vale"
+    },
+    {
+      "name": "Wulfric",
+      "notes": "",
+      "uid": "ma_wulfric"
+    },
+    {
+      "name": "Herald",
+      "notes": "",
+      "uid": "ma_herald"
+    },
+    {
+      "name": "Godfrey",
+      "notes": "",
+      "uid": "ma_godfrey"
+    },
+    {
+      "name": "Zenobia",
+      "notes": "",
+      "uid": "ma_zenobia"
+    },
+    {
+      "name": "Praxis",
+      "notes": "",
+      "uid": "ma_praxis"
+    },
+    {
+      "name": "Theory",
+      "notes": "",
+      "uid": "ma_theory"
+    },
+    {
+      "name": "Sheba",
+      "notes": "",
+      "uid": "ma_sheba"
+    },
+    {
+      "name": "Agate",
+      "notes": "",
+      "uid": "ma_agate"
+    },
+    {
+      "name": "Kasandra",
+      "notes": "",
+      "uid": "ma_kasandra"
+    },
+    {
+      "name": "Dahlia",
+      "notes": "",
+      "uid": "ma_dahlia"
+    },
+    {
+      "name": "Ursala",
+      "notes": "",
+      "uid": "ma_ursala"
+    },
+    {
+      "name": "KOS-MOS",
+      "notes": "",
+      "uid": "ma_kosmos"
+    },
+    {
+      "name": "T-elos",
+      "notes": "",
+      "uid": "ma_telos"
+    },
+    {
+      "name": "Sever",
+      "notes": "",
+      "uid": "ma_sever"
+    },
+    {
+      "name": "Obrona",
+      "notes": "",
+      "uid": "ma_obrona"
+    },
+    {
+      "name": "Perdido",
+      "notes": "",
+      "uid": "ma_perdido"
+    },
+    {
+      "name": "Cressidus",
+      "notes": "",
+      "uid": "ma_cressidus"
+    },
+    {
+      "name": "Poppibuster",
+      "notes": "",
+      "uid": "ma_poppibuster"
+    },
+    {
+      "name": "Shulk",
+      "notes": "",
+      "uid": "ma_shulk"
+    },
+    {
+      "name": "Fiora",
+      "notes": "",
+      "uid": "ma_fiora"
+    },
+    {
+      "name": "Crossette",
+      "notes": "",
+      "uid": "ma_crossette"
+    },
+    {
+      "name": "Corvin",
+      "notes": "",
+      "uid": "ma_corvin"
+    },
+    {
+      "name": "Elma",
+      "notes": "",
+      "uid": "ma_elma"
+    },
+    {
+      "name": "Akhos",
+      "notes": "",
+      "uid": "ma_akhos"
+    },
+    {
+      "name": "Patroka",
+      "notes": "",
+      "uid": "ma_patroka"
+    },
+    {
+      "name": "Mikhail",
+      "notes": "",
+      "uid": "ma_mikhail"
     }
   ]
 }

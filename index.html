@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/yeti/bootstrap.min.css" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" integrity="sha256-eU4xmpfQx1HSi5q1q2rHNcMEzTNJov7r2Wr/6zF3ANc=" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="https://rawgit.com/wenzhixin/bootstrap-table/develop/src/extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.22.0/extensions/filter-control/bootstrap-table-filter-control.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -51,6 +51,9 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" id="uniquemonsters-tab" data-toggle="tab" href="#uniquemonsters" role="tab" aria-controls="uniquemonsters" aria-selected="false">Unique Monsters</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="hearttohearts-tab" data-toggle="tab" href="#hearttohearts" role="tab" aria-controls="hearttohearts" aria-selected="false">Heart to Hearts</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" id="mercmissions-tab" data-toggle="tab" href="#mercmissions" role="tab" aria-controls="mercmissions" aria-selected="false">Merc Missions</a>
@@ -121,6 +124,10 @@
         <div class="tab-pane fade" id="uniquemonsters" role="tabpanel" aria-labelledby="uniquemonsters-tab">
             <h3 id="uniquemonsters-header">Unique Monsters (<span id="uniquemonsters-completed"></span>/<span id="uniquemonsters-total"></span>)</h3>
             <table id="uniquemonsters-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="hearttohearts" role="tabpanel" aria-labelledby="hearttohearts-tab">
+            <h3 id="hearttohearts-header">Heart to Hearts (<span id="hearttohearts-completed"></span>/<span id="hearttohearts-total"></span>)</h3>
+            <table id="hearttohearts-table" class="table table-hover"></table>
         </div>
         <div class="tab-pane fade" id="mercmissions" role="tabpanel" aria-labelledby="mercmissions-tab">
             <h3 id="mercmissions-header">Merc Missions (<span id="mercmissions-completed"></span>/<span id="mercmissions-total"></span>)</h3>
